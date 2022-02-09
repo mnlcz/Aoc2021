@@ -5,7 +5,7 @@ object Day1
     private fun parse(): List<Int>
     {
         val parsed = mutableListOf<Int>()
-        val content: List<String> = File("./src/main/resources/input1.txt").readText().split("\n")
+        val content: List<String> = File("./src/main/resources/input1.txt").readText().split("\n").map { it.replace("\r", "") }
         content.forEach { parsed.add(it.toInt())}
         return parsed
     }
