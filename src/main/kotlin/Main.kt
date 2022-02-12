@@ -7,5 +7,8 @@ fun main()
 //    Day2.Part2.solve()
 
 //    Day4.Part1.solve()
-    Day4.Part2.solve()
+//    Day4.Part2.solve()
+
+    Day6.Part1.solve()
+    Day6.Part2.solve()
 }
